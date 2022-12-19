@@ -21,7 +21,7 @@ public class UserPrincipal implements UserDetails {
 	}
 
 	@Override
-	public String getPassword() {
+	public String getPassword {
 		return user.getPassword();
 	}
 
@@ -34,7 +34,7 @@ public class UserPrincipal implements UserDetails {
 	public boolean isAccountNonExpired() {
 		return true;
 	}
-o
+
 	@Override
 	public boolean isAccountNonLocked() {
 		return true;
