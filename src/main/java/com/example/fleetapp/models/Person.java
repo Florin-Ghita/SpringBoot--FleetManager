@@ -2,11 +2,12 @@ package com.example.fleetapp.models;
 
 import java.util.Date;
 
-import org.springframework.data.annotation.Id;
+
 import org.springframework.format.annotation.DateTimeFormat;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.MappedSuperclass;

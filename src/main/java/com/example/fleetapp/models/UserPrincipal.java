@@ -1,5 +1,6 @@
 package com.example.fleetapp.models;
 
+
 import java.util.Collection;
 import java.util.Collections;
 
@@ -12,7 +13,7 @@ public class UserPrincipal implements UserDetails {
 	private User user;
 
 	public UserPrincipal(User user) {
-		this.user = user;	
+		this.user = user;
 	}
 
 	@Override
@@ -21,7 +22,7 @@ public class UserPrincipal implements UserDetails {
 	}
 
 	@Override
-	public String getPassword {
+	public String getPassword() {
 		return user.getPassword();
 	}
 

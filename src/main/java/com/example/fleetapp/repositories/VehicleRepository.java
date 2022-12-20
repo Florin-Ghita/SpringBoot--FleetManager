@@ -3,8 +3,10 @@ package com.example.fleetapp.repositories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+import com.example.fleetapp.models.Vehicle;
+
 @Repository
-public interface VehicleRepository extends JpaRepository<VehicleRepository, Integer> {
+public interface VehicleRepository extends JpaRepository<Vehicle, Integer> {
 
 	
 	

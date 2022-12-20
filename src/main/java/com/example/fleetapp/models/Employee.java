@@ -33,4 +33,20 @@ public class Employee extends Person {
 	
 	@DateTimeFormat(pattern = "yyyy-MM-dd")	
 	private Date hireDate;
+
+	public Integer getJobtitleid() {
+		return jobtitleid;
+	}
+
+	public void setJobtitleid(Integer jobtitleid) {
+		this.jobtitleid = jobtitleid;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
 }
